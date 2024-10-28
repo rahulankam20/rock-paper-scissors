@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.gameName{
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.icon img{
+    height: 10rem;
+    margin: 2rem;
+    border: 5px transparent solid;
+    border-radius: 50%;
+}
+.icon img:hover{
+    cursor: pointer;
+    border: 5px black solid;
+    border-radius: 50%;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.user, .comp{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem;
+}
+.result{
+    display: inline;
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
